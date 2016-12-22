@@ -8,4 +8,5 @@ Andrew Ng在Coursera上机器学习公开课的编程作业
 学习笔记地址：<http://junmo.farbox.com/category/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0>
 
 目录：
-- ex1：Linear Regression
+- ex1: Linear Regression
+- ex2: Logistic Regression
