@@ -10,3 +10,4 @@ Andrew Ng在Coursera上机器学习公开课的编程作业
 目录：
 - ex1: Linear Regression
 - ex2: Logistic Regression
+- ex3: Multi-class Classification and Neural Networks
