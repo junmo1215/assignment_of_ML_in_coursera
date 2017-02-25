@@ -138,6 +138,7 @@ X_poly = polyFeatures(X, p);
 X_poly = [ones(m, 1), X_poly];                   % Add Ones
 
 % Map X_poly_test and normalize (using mu and sigma)
+% 这里是将一个feature构建成8个之后进行了 (x - mu) / sigma的动作，也就是归一化
 X_poly_test = polyFeatures(Xtest, p);
 X_poly_test = bsxfun(@minus, X_poly_test, mu);
 X_poly_test = bsxfun(@rdivide, X_poly_test, sigma);
