@@ -13,3 +13,4 @@ Andrew Ng在Coursera上机器学习公开课的编程作业
 - ex3: Multi-class Classification and Neural Networks
 - ex4: Neural Network Learning
 - ex5: Regularized Linear Regression and Bias/Variance
+- ex6: Support Vector Machines
