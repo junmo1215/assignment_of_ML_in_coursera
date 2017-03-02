@@ -24,10 +24,27 @@ sigma = 0.3;
 %
 
 
+% predictionErrorMin = -1;
 
+% listOfC = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
+% listOfSigma = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
+% for indexOfC = 1:length(listOfC)
+%     for indexOfSigma = 1:length(listOfSigma)
+%         tempC = listOfC(indexOfC)
+%         tempSigma = listOfSigma(indexOfSigma)
+%         model= svmTrain(X, y, tempC, @(x1, x2) gaussianKernel(x1, x2, tempSigma)); 
+%         predictions = svmPredict(model, Xval);
+%         predictionError = mean(double(predictions ~= yval))
+%         if predictionErrorMin == -1 || predictionError < predictionErrorMin
+%             C = tempC;
+%             sigma = tempSigma;
+%             predictionErrorMin = predictionError;
+%         end
+%     end
+% end
 
-
-
+C = 1;
+sigma = 0.1;
 
 % =========================================================================
 
