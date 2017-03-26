@@ -21,9 +21,16 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
-
-
-
+for i = 1:size(X, 1)
+    minDistence = Inf;
+    for j = 1:K
+        distence = (X(i, :) - centroids(j, :)) * (X(i, :) - centroids(j, :))';
+        if distence < minDistence
+            idx(i) = j;
+            minDistence = distence;
+        end
+    end
+end
 
 
 

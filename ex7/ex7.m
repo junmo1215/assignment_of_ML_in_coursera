@@ -106,6 +106,9 @@ pause;
 fprintf('\nRunning K-Means clustering on pixels from an image.\n\n');
 
 %  Load an image of a bird
+% octave 中还是会有整除的概念，和其他语言不同的是直接输入的180这样的数字会被当作double类型
+% 然后这里从图片中读到的数据是uint8的三维数组，如果不进行double的处理会导致后面全都是0或者1
+% 还有一个就是整除于其他语言不同，这个会四舍五入
 A = double(imread('bird_small.png'));
 
 % If imread does not work for you, you can try instead
