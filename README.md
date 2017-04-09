@@ -15,3 +15,4 @@ Andrew Ng在Coursera上机器学习公开课的编程作业
 - ex5: Regularized Linear Regression and Bias/Variance
 - ex6: Support Vector Machines
 - ex7：Unsupervised Learning
+- ex8: Anomaly Detection and Recommender Systems
